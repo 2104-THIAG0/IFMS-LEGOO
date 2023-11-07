@@ -1,0 +1,82 @@
+.cabeça{
+    width: 100%;
+    height: 30vh;
+    background-color: purple;
+
+    display: flex; /*transforma em flex container*/
+    flex-direction: row; /*define a direção dos filhos*/
+    flex-wrap: wrap;/*perimite quebra de linha */
+    justify-content: space-between;/*alinha os filhos em relação ao eixo principal*/
+    align-items: center;
+}
+.corpo{
+    width: 15%;
+    height: 20vh;
+    background-color: darkgreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.corpo img{
+    height: 50%;
+    width: 30%;
+}
+.braçoesquerdo{
+    width: 85%;
+    height: 20vh;
+    background-color: darkgreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.braçodireito{
+    width: 100%;
+    height: 15vh;
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.braçodireito img{
+    width: 50%;
+    height: 80%;
+}
+.pernaesquerda{
+    width: 70%;
+    height: 60vh;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pernaesquerda img{
+    width: 60%;
+    height: 70%;
+}
+.pernadireita{
+    width: 30%;
+    height: 60vh;
+    background-color: white;
+}
+.pernadireita img{
+    width: 100%;
+    height: 25%;
+}
+.pes{
+    width: 100%;
+    height: 20vh;
+    background-color: darkgreen;
+}
+@media(max-width: 760px){
+    .corpo{
+        width: 80px;
+    }
+    .braçodireito{
+        display: none;
+    }
+    .pernaesquerda{
+        width: 600%;
+    }
+    .pernadireita{
+        width: 420px;
+    }
